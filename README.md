@@ -11,6 +11,10 @@
 ![SillyTavern](https://img.shields.io/badge/SillyTavern-1.12%2B-informational)
 ![Version](https://img.shields.io/badge/version-1.0.0-success)
 
+<img width="1200" alt="Панель массовых операций в World Info" src="https://github.com/user-attachments/assets/81a5bcf7-c99a-4c5a-9082-deed215cbad6" />
+
+*Панель массовых операций в редакторе World Info — отмечаешь записи галочками и копируешь в другой лорбук одним нажатием*
+
 ---
 
 ## Содержание
