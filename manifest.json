@@ -8,6 +8,7 @@
     "author": "skizy",
     "version": "1.0.0",
     "license": "AGPL-3.0",
+    "homePage": "https://github.com/skizylll/bulk-lorebook-tools",
     "auto_update": false,
     "description": "Bulk operations for World Info (lorebooks): select many entries at once and copy/move them into another lorebook, or delete several entries in one click."
 }
