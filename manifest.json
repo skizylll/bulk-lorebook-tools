@@ -1,0 +1,13 @@
+{
+    "display_name": "Bulk Lorebook Tools",
+    "loading_order": 100,
+    "requires": [],
+    "optional": [],
+    "js": "index.js",
+    "css": "style.css",
+    "author": "skizy",
+    "version": "1.0.0",
+    "license": "AGPL-3.0",
+    "auto_update": false,
+    "description": "Bulk operations for World Info (lorebooks): select many entries at once and copy/move them into another lorebook, or delete several entries in one click."
+}

@@ -1,0 +1,13 @@
+# Единые переводы строк (LF) для всех текстовых файлов.
+* text=auto eol=lf
+
+# Бинарные файлы не трогаем.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.webp binary
+*.zip binary
+*.woff binary
+*.woff2 binary

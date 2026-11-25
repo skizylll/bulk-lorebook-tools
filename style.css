@@ -1,0 +1,126 @@
+/* Bulk Lorebook Tools — panel styling.
+   Uses SillyTavern theme variables so it matches any theme. */
+
+#blt-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin: 6px 0;
+    padding: 8px;
+    border: 1px solid var(--SmartThemeBorderColor, rgba(255, 255, 255, 0.2));
+    border-radius: 6px;
+    background-color: var(--SmartThemeBlurTintColor, rgba(0, 0, 0, 0.15));
+    font-size: calc(var(--mainFontSize, 1rem) * 0.9);
+}
+
+#blt-panel .blt-header {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: bold;
+}
+
+#blt-panel .blt-header .blt-close {
+    margin-left: auto;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+#blt-panel .blt-header .blt-close:hover {
+    opacity: 1;
+}
+
+#blt-panel .blt-row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-wrap: wrap;
+}
+
+#blt-panel .blt-row > label:first-child {
+    min-width: 6.5em;
+    opacity: 0.85;
+}
+
+#blt-panel select.blt-select {
+    flex: 1;
+    min-width: 10em;
+    max-width: 24em;
+}
+
+#blt-panel .blt-count {
+    margin-left: auto;
+    opacity: 0.8;
+    white-space: nowrap;
+}
+
+#blt-panel .blt-list {
+    max-height: 320px;
+    overflow-y: auto;
+    border: 1px solid var(--SmartThemeBorderColor, rgba(255, 255, 255, 0.15));
+    border-radius: 4px;
+    padding: 4px;
+    background-color: var(--SmartThemeChatTintColor, rgba(0, 0, 0, 0.1));
+}
+
+#blt-panel .blt-entry {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 2px 4px;
+    border-radius: 3px;
+    cursor: pointer;
+    user-select: none;
+}
+
+#blt-panel .blt-entry:hover {
+    background-color: var(--white50a, rgba(255, 255, 255, 0.08));
+}
+
+#blt-panel .blt-entry.blt-disabled .blt-entry-title {
+    opacity: 0.55;
+    text-decoration: line-through;
+}
+
+#blt-panel .blt-entry-title {
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#blt-panel .blt-entry-uid {
+    opacity: 0.6;
+    font-size: 0.85em;
+    white-space: nowrap;
+}
+
+#blt-panel .blt-empty {
+    padding: 8px;
+    opacity: 0.7;
+    text-align: center;
+}
+
+#blt-panel .blt-note {
+    padding: 4px 6px;
+    opacity: 0.75;
+    font-size: 0.9em;
+}
+
+#blt-panel .blt-actions {
+    border-top: 1px solid var(--SmartThemeBorderColor, rgba(255, 255, 255, 0.15));
+    padding-top: 6px;
+}
+
+#blt-panel .blt-danger {
+    color: var(--crimson70a, #fe9a9a);
+}
+
+#blt-panel .blt-checkbox {
+    flex: 1;
+    min-width: 12em;
+}
+
+#blt-open.blt-open-active {
+    background-color: var(--white30a, rgba(255, 255, 255, 0.15));
+}

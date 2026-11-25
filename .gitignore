@@ -1,0 +1,13 @@
+# OS / editor junk
+Thumbs.db
+Desktop.ini
+.DS_Store
+.idea/
+.vscode/
+*.code-workspace
+*.log
+
+# local dev leftovers
+node_modules/
+*.zip
+*.tar.gz
